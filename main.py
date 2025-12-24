@@ -1,3 +1,19 @@
+"""
+Main orchestration file for document preprocessing pipeline.
+
+Responsibilities:
+- Route files to appropriate extractors
+- Apply cleaning
+- Apply multiple chunking strategies
+- Save outputs for inspection
+
+Note:
+Chunking logic is intentionally kept together to align with
+local development and execution environment.
+"""
+
+
+
 import os
 
 # -------- EXTRACTION IMPORTS --------
@@ -84,3 +100,4 @@ if __name__ == "__main__":
 
     print("\n========== SEMANTIC CHUNKING ==========")
     print("Total chunks:", len(semantic_chunking(text)))
+
