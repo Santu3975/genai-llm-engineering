@@ -1,0 +1,27 @@
+INPUT FILE
+----------
+sample.pdf
+
+TEXT EXTRACTION
+---------------
+Total characters extracted: ~970
+
+Preview:
+COMPANY IT POLICY
+Employees must not share passwords or access credentials.
+All systems are monitored continuously for security threats.
+
+
+CHUNKING RESULTS
+----------------
+Page-level chunks: 2
+Fixed-size chunks: 7
+Recursive chunks: 20
+Semantic chunking: Applied
+
+
+NOTE
+----
+Full page-wise outputs are generated locally in `page_outputs/`
+and are intentionally ignored from GitHub.
+This file is only a small verification sample.
